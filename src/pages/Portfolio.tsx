@@ -644,7 +644,7 @@ export default function Portfolio() {
                 type="submit"
                 aria-label="Close case study dialog"
                 className="p-2 border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors cursor-pointer"
-                autofocus
+                autoFocus
               >
                 <X size={18} />
               </button>
