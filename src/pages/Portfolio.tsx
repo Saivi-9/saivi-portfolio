@@ -24,7 +24,7 @@ import {
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } },
 };
 
 const staggerContainer = {
@@ -62,7 +62,7 @@ export const FLAGSHIP_PROJECTS: ProjectCaseStudy[] = [
       "2D ResidualChestCNN + ResNet-18 & MobileNetV2 transfer learning with Spatial Attention, Grad-CAM localization overlays, and Monte Carlo Dropout epistemic uncertainty.",
       "1D Convolutional Autoencoder & ResNet1D trained on MIT-BIH & synthetic arrhythmia cohorts with automated QRS/PR/QTc/ST telemetry extraction.",
       "20-biomarker Stacking Ensemble Cardiology EHR triage engine with multi-modal CXR + ECG risk fusion.",
-      "FastAPI microservice with `/v1/system/diagnostics` checkpoint auditing and an interactive React 19 medical PACS workstation.",
+      "FastAPI microservice with `/v1/system/diagnostics`, `/v1/clinical/biomarker-audit` threshold auditing, and an interactive React 19 medical PACS workstation.",
     ],
     metrics: [
       { label: "CXR Test Accuracy", value: "100% (1.00 AUC)" },
@@ -85,7 +85,7 @@ export const FLAGSHIP_PROJECTS: ProjectCaseStudy[] = [
     architectureHighlights: [
       "Automated feature engineering pipeline deriving study efficiency, academic momentum, cognitive sleep deficit, engagement score, and wellbeing index.",
       "9-model 5-fold cross-validation tournament benchmarking LightGBM, HistGradientBoosting, Stacking Ensemble, MLP Neural Network, Random Forest, Extra Trees, Ridge, and ElasticNet.",
-      "Interactive React Coaching Studio with What-If intervention trajectory simulations and live Hugging Face Hub benchmark integration.",
+      "Interactive React Coaching Studio with `/v1/predict/model-consensus` epistemic agreement telemetry, What-If intervention trajectory simulations, and live Hugging Face Hub benchmark integration.",
     ],
     metrics: [
       { label: "Cohort Size", value: "20,000 Students" },
