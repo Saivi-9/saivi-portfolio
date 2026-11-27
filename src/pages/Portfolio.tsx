@@ -62,7 +62,7 @@ export const FLAGSHIP_PROJECTS: ProjectCaseStudy[] = [
       "2D ResidualChestCNN + ResNet-18 & MobileNetV2 transfer learning with Spatial Attention, Grad-CAM localization overlays, and Monte Carlo Dropout epistemic uncertainty.",
       "1D Convolutional Autoencoder & ResNet1D trained on MIT-BIH & synthetic arrhythmia cohorts with automated QRS/PR/QTc/ST telemetry extraction.",
       "20-biomarker Stacking Ensemble Cardiology EHR triage engine with multi-modal CXR + ECG risk fusion.",
-      "FastAPI microservice with `/v1/system/diagnostics`, `/v1/clinical/biomarker-audit`, `/v1/clinical/cardiovascular-profile`, `/v1/clinical/ischemic-burden`, `/v1/clinical/cardiometabolic-index`, `/v1/clinical/chronotropic-reserve`, `/v1/ecg/clinical-summary`, and an interactive React 19 medical PACS workstation.",
+      "FastAPI microservice with `/v1/system/diagnostics`, `/v1/clinical/biomarker-audit`, `/v1/clinical/cardiovascular-profile`, `/v1/clinical/ischemic-burden`, `/v1/clinical/cardiometabolic-index`, `/v1/clinical/chronotropic-reserve`, `/v1/clinical/vascular-stiffness`, `/v1/ecg/clinical-summary`, and an interactive React 19 medical PACS workstation.",
     ],
     metrics: [
       { label: "CXR Test Accuracy", value: "100% (1.00 AUC)" },
@@ -85,7 +85,7 @@ export const FLAGSHIP_PROJECTS: ProjectCaseStudy[] = [
     architectureHighlights: [
       "Automated feature engineering pipeline deriving study efficiency, academic momentum, cognitive sleep deficit, engagement score, and wellbeing index.",
       "9-model 5-fold cross-validation tournament benchmarking LightGBM, HistGradientBoosting, Stacking Ensemble, MLP Neural Network, Random Forest, Extra Trees, Ridge, and ElasticNet.",
-      "Interactive React Coaching Studio with `/v1/predict/model-consensus`, `/v1/predict/cohort-benchmark`, `/v1/predict/study-efficiency-audit`, `/v1/predict/grade-tier-readiness`, `/v1/predict/attendance-coursework-synergy`, `/v1/predict/sleep-cognitive-recovery`, What-If intervention trajectory simulations, and live Hugging Face Hub benchmark integration.",
+      "Interactive React Coaching Studio with `/v1/predict/model-consensus`, `/v1/predict/cohort-benchmark`, `/v1/predict/study-efficiency-audit`, `/v1/predict/grade-tier-readiness`, `/v1/predict/attendance-coursework-synergy`, `/v1/predict/sleep-cognitive-recovery`, `/v1/predict/practice-mastery-roi`, What-If intervention trajectory simulations, and live Hugging Face Hub benchmark integration.",
     ],
     metrics: [
       { label: "Cohort Size", value: "20,000 Students" },
